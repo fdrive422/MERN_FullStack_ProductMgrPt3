@@ -1,0 +1,91 @@
+.App {
+	text-align: auto;
+}
+
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: lightgray;
+}
+
+button {
+	background-color: white;
+	/* border: 1px solid black; */
+	/* border-radius: 4px; */
+	padding: 10px;
+	/* box-shadow: 2px 2px 3px; */
+	margin: 7px 3px;
+	font-size: 8px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+header {
+	border-bottom: 3px double lightgray;
+	/* text-align: center; */
+	font-size: 24px;
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+li {
+	font-size: 26px;
+	color: gray;
+}
+h1 {
+	font-size: 42px;
+	margin: 0px;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+form {
+	text-align: auto;
+	margin: 10px;
+}
+
+label {
+	display: block;
+	width: 200px;
+	margin: auto;
+	font-size: 22px;
+}
+
+input,
+select {
+	width: 150px;
+	margin: 10px auto;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 20px;
+	/* box-shadow: 3px 3px 6px; */
+}
+
+.listItem {
+	text-align: center;
+	border-bottom: 4px double lightgray;
+	margin: 40px auto;
+	width: 50%;
+}
+
+.container {
+	font-size: 20px;
+	text-align: center;
+	/* border-radius: 40px; */
+	padding: 3px;
+	margin: 5px;
+}
