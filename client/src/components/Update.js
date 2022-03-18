@@ -71,9 +71,9 @@ const Update = (props) => {
                 </div>
 
                 <div className="mb-3 text-center">
-                    <input type="submit" className="btn btn-success mt-3" value="Update" />
+                    <input type="submit" className="btn btn-light mt-3" value="Update" />
                     <br />
-                    <button className="btn btn-primary mt-3" onClick={() => navigate("/")} > Home </button>
+                    <button className="btn btn-light mt-3" onClick={() => navigate("/")} > Home </button>
                 </div>
             </form>
         </div >

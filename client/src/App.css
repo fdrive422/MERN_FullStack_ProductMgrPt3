@@ -22,13 +22,17 @@ button {
 	/* border: 1px solid black; */
 	/* border-radius: 4px; */
 	padding: 10px;
-	/* box-shadow: 2px 2px 3px; */
+	box-shadow: 2px 2px 3px;
 	margin: 7px 3px;
 	font-size: 8px;
 }
 
 button:hover {
 	cursor: pointer;
+}
+
+Link {
+	box-shadow: 2px 2px 3px;
 }
 
 header {
@@ -72,7 +76,7 @@ select {
 	background-color: white;
 	border: 1px solid black;
 	border-radius: 20px;
-	/* box-shadow: 3px 3px 6px; */
+	box-shadow: 3px 3px 6px;
 }
 
 .listItem {

@@ -58,7 +58,7 @@ const ProductForm = (props) => {
                     />
                 </div>
 
-                <button type="submit" className="btn btn-primary"> Submit</button>
+                <button type="submit" className="btn btn-light"> Submit</button>
             </form>
         </div>
     );

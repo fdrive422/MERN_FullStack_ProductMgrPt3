@@ -37,14 +37,14 @@ const DisplayAll = (props) => {
                     <div key={product._id} className="align-items-center mt-3">
                         <Link to={`/products/${product._id}`}>{product.title}</Link>
                         <br />
-                        <button className="btn btn-primary" onClick={() => navigate(`/products/edit/${product._id}`)} > Edit </button>
+                        <button className="btn btn-light" onClick={() => navigate(`/products/edit/${product._id}`)} > Edit </button>
                         &nbsp;
-                        <button className="btn btn-danger" onClick={() => deleteFilter(product._id)}>Delete</button>
+                        <button className="btn btn-light" onClick={() => deleteFilter(product._id)}>Delete</button>
                     </div>
                 ))
             }
         </div>
     )
 }
-// className="btn btn-primary" onClick={() => navigate(`/product/update/${product._id}`)}>Update</button>
+
 export default DisplayAll;

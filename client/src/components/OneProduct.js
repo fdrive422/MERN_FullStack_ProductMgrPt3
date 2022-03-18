@@ -35,15 +35,13 @@ const OneProduct = (props) => {
                 <p>Price: ${product.price}</p>
                 <p>Description: {product.description}</p>
             </div>
-            <Link className="btn btn-primary" to="/"> Home </Link>
+            <button className="btn btn-light" onClick={() => navigate("/")} > Home </button>
             &nbsp;
-            <button className="btn btn-danger" onClick={deleteFilter}>Delete</button>
+            <button className="btn btn-light" onClick={deleteFilter}>Delete</button>
         </div>
     );
 
 }
-
-
 
 
 export default OneProduct;
