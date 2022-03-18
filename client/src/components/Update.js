@@ -37,7 +37,7 @@ const Update = (props) => {
             })
             .catch(err => console.log(err))
     }
-    // onSubmit={(e) => onSubmitHandler(e)} onSubmit={submitHandler}>
+
     return (
         <div className="border rounded p-5 m-5">
             <form onSubmit={submitHandler}>
@@ -73,7 +73,6 @@ const Update = (props) => {
                 <div className="mb-3 text-center">
                     <input type="submit" className="btn btn-success mt-3" value="Update" />
                     <br />
-                    {/* <Link className="btn btn-primary mt-3" to="/"> Home </Link> */}
                     <button className="btn btn-primary mt-3" onClick={() => navigate("/")} > Home </button>
                 </div>
             </form>
